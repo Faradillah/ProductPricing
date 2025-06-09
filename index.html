@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product Pricing Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Product Pricing Calculator</h1>
+    <div class="input-section">
+      <label>
+        Cost of Goods Sold (COGS)
+        <input type="number" id="cogs" value="0" />
+      </label>
+      <label>
+        Additional Costs
+        <input type="number" id="additional" value="0" />
+      </label>
+      <label>
+        Markup %
+        <input type="number" id="markup" value="0" />
+      </label>
+      <label>
+        Discount %
+        <input type="number" id="discount" value="0" />
+      </label>
+      <label>
+        Include Marketplace Fee
+        <input type="checkbox" id="fee-toggle" />
+      </label>
+      <div id="fee-section" style="display:none;">
+        <label>
+          Fee %
+          <input type="number" id="fee" value="5" />
+        </label>
+      </div>
+    </div>
+    <div class="output-section">
+      <p>Ideal Selling Price: <span id="selling-price">0</span></p>
+      <p>Gross Profit: <span id="gross-profit">0</span></p>
+      <p>Gross Margin: <span id="gross-margin">0%</span></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

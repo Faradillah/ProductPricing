@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.input-section label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+.input-section input[type="number"] {
+  width: 100%;
+}
+
+.output-section {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
